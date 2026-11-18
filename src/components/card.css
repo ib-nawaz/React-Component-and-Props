@@ -1,0 +1,149 @@
+.card-contain {
+    border: 10px solid red;
+    height: 74vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: auto;
+    margin-top: 2vh;
+    margin-bottom: none;
+}
+
+.card {
+    height: 50vh;
+    width: 30vw;
+    border: 2px solid red;
+    border-radius: 20px;
+    margin: 4vh 3vw;
+    padding: 4vh;
+    overflow: auto;
+    scrollbar-width: none;
+    padding: 4px 10px 4px 10px
+}
+
+.upper-cont {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+}
+
+.center-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex: 1;
+}
+
+.bottom-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    margin-bottom: 7vh;
+
+}
+
+.CARD:hover {
+    background-color: wheat;
+    transform: scale(1.1);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: yellowgreen;
+    border-radius: 20px;
+    min-height: 90vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 30px;
+    overflow-y: auto;
+}
+
+
+h1 {
+    color: hotpink;
+    text-align: center;
+    margin-top: 1vh;
+    text-shadow: 4px 5px 5px gray;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: orange;
+    margin-bottom: 2vh;
+    text-align: center;
+    margin-top: 1vh;
+    text-shadow: 4px 5px 5px gray;
+}
+
+
+.CARD {
+    height: 50vh;
+    width: 40vw;
+    margin: 30vh 10vw;
+
+    background-color: whitesmoke;
+    border-radius: 20px;
+
+    border: 2px solid cornflowerblue;
+
+    cursor: pointer;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    scrollbar-width: none;
+
+    padding: 10px;
+}
+
+
+/* .CARD img {
+    height: 320px;
+    width: 100%;
+
+    object-fit: cover;
+    object-position: top;
+
+    border-radius: 21px;
+    margin-bottom: 1vh;
+} */
+
+
+
+p {
+    margin: 2vh auto;
+    width: 80%;
+
+    color: black;
+
+    text-align: center;
+
+    overflow-y: auto;
+}
+
+
+
+.des {
+    background-color: rgba(192, 192, 192, 0.466);
+    color: rgba(140, 0, 255, 0.726);
+
+    border-radius: 10px;
+    padding: 10px 14px;
+}
