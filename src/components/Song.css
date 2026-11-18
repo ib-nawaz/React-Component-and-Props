@@ -1,0 +1,60 @@
+.song-card {
+  width: 100%;
+  max-width: 700px;
+  min-height: 220px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  margin: 5vh 10vw 10vh;
+}
+
+.song-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 16px;
+  padding: 8px;
+}
+
+.song-info {
+  flex: 1;
+  min-width: 200px;
+  padding: 8px 16px;
+}
+
+.song-title {
+  margin: 0 0 8px;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.song-lyrics {
+  margin: 0;
+  font-size: 0.75rem;
+}
+
+.song-controls {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.song-btn {
+  display: flex;
+  margin: 0 8px;
+  padding: 4px;
+  background: transparent;
+  border: 1px solid gray;
+  border-radius: 9999px;
+  cursor: pointer;
+}
